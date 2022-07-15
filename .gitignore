@@ -102,3 +102,11 @@ dist
 
 # TernJS port file
 .tern-port
+
+
+dist
+.next
+.npmrc
+.rollup.cache
+.vscode
+.DS_Store

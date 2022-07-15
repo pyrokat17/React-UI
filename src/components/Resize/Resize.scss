@@ -1,0 +1,30 @@
+.container {
+width: 250px;
+height: 250px;
+position: relative;
+margin-right: 10px;
+
+}
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    // z-index: 10;
+}
+
+.ui-bar:hover {
+cursor:grab
+}
+.ui-bar:active {
+    cursor: grabbing;
+}
+.box {
+position: absolute;
+}
+.top{top:0}
+.middle{top:50%;/*half of the .box height*/}
+.bottom{bottom:0}
+
+.left{left:0;}
+.center{left:50%;/*half of the .box width*/}
+.right{right:0;}
